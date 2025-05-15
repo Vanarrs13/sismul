@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #005f99;
+}
+
+h2 {
+    color: #0077cc;;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #e63946;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.marquee {
+    background: #dff9fb;
+    color: #130f40;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.animated-text {
+    display: inline-block;
+    animation: fadeIn 3s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+    }
+}

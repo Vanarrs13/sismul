@@ -1,0 +1,55 @@
+.marquee {
+	font-weight: bold;
+	color: blue;
+	font-size: 18px;
+	margin-top: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.banner-container {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background-image: url("../img/banner.jpg"); 
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 30px;
+}
+
+/* Overlay teks di atas banner */
+.banner-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: rgba(0, 0, 0, 0.4); /* Latar transparan */
+	text-align: center;
+	padding: 20px;
+}
+
+/* Styling teks judul */
+.banner-overlay h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+/* Styling teks berjalan */
+.marquee {
+	font-size: 18px;
+	color: #ffeb3b;
+}
